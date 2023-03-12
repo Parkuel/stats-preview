@@ -27,10 +27,14 @@ body, main {
     width: 100%;
 }
 
+main {
+    margin-bottom: 20px;
+}
+
 .card {
     background-color: var(--Dark-desaturated-blue);
     border-radius: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     height: 800px;
     width: 360px;
 }
