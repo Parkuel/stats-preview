@@ -33,7 +33,7 @@ main {
 
 .card {
     background-color: var(--Dark-desaturated-blue);
-    border-radius: 15px;
+    border-radius: 10px;
     height: 780px;
     width: 360px;
 }
@@ -41,7 +41,6 @@ main {
 .header-image > img {
     width: 100%;
     border-radius: 15px 15px 0 0;
-    filter:hue-rotate(50deg);
 }
 
 .card-content {
@@ -83,4 +82,57 @@ main {
     font-size: 0.8rem;
     font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 465px) {
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 360px;
+        width: 900px;
+    }
+
+    .header-image > img {
+        height: 100%;
+        width: 400px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card-content {
+        text-align: left;
+        padding: 40px 120px 60px 60px;
+    }
+
+    .title {
+        font-size: 1.9rem;
+    }
+
+    .paragragh {
+        font-size: 0.79rem;
+    }
+
+    .stats-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+
+    .stats {
+        margin: 20px 20px 20px 0;
+    }
+
+    .stats-heading {
+        font-size: 1.1rem;
+    }
+
+    .stats-info {
+        font-size: 0.6rem;
+    }
+
+    .attribution {
+        margin-bottom: 20px;
+    }
 }
