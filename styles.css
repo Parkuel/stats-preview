@@ -33,14 +33,14 @@ main {
 
 .card {
     background-color: var(--Dark-desaturated-blue);
-    border-radius: 10px;
+    border-radius: 15px;
     height: 780px;
     width: 360px;
 }
 
 .header-image > img {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     filter:hue-rotate(50deg);
 }
 
